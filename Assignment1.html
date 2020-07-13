@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+    </head>
+    <body>
+        <p id="sample"></p>
+        <p id="sample2"></p>
+        <script>
+            var today= new Date();
+            var daylist = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+            document.getElementById('sample').innerHTML="Today is : "+ daylist[today.getDay()];
+            var hrs=today.getHours()
+            var pre = (hrs>=12)?"PM":"AM";
+            hrs = (hrs>=12)?hrs-12:hrs;
+            document.getElementById('sample2').innerHTML="Current time is : "+ hrs + " "+ pre+" : " + today.getMinutes() + ": " + today.getSeconds();
+        </script>
+    </body>
+</html>
