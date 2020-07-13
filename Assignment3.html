@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+    </head>
+    <body>
+        <p id="sample"></p>
+        <p id="sample2"></p>
+        <script>
+            var today= new Date();
+            document.getElementById('sample').innerHTML=(today.getMonth()+1) +"-"+ today.getDate() +"-"+today.getFullYear()+", " + (today.getMonth()+1) +"/"+ today.getDate() +"/"+today.getFullYear() + "  or"
+            document.getElementById('sample2').innerHTML=today.getDate() +"-"+(today.getMonth()+1)  +"-"+today.getFullYear()+", " + today.getDate() +"/"+(today.getMonth()+1)  +"/"+today.getFullYear()
+        </script>
+    </body>
+</html>
