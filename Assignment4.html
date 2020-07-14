@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Assignment 4</title>
+    </head>
+    <body>
+        <script>
+            //console.assert()-> Writes an error message to the console if the assertion is false
+            console.assert(15>10);
+            //console.clear()->Clears the console
+            console.clear();
+            //console.count()->Logs the number the times that this particular call to this count has been called
+            for (i = 0; i < 10; i++) 
+            {
+                console.count();
+            }
+            //console.error()->Outputs an error message to the console
+            console.error("This is an error message");
+            //console.group() & console.groupEnd()->Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() is called
+            console.log("Hello world!");
+            console.group();
+            console.log("Hello again, this time inside a group!");
+            console.groupEnd();
+            //console.groupCollapsed()->Create a collapsed group of messages in the console:
+            console.log("Hello world!");
+            console.groupCollapsed();
+            console.log("Hello again, this time inside a collapsed group!");
+            //console.info()->Outputs an informational message to the console
+            console.info("Hello World");
+            //console.log()->Outputs a message to the console
+            console.log("write to the console");
+            //console.table()->Displays tabular data as a table
+            console.table(["Audi","Volvo","Ford"]);
+            //console.time()->Starts a timer (can track how long an operation takes)
+            console.time();
+            //console.timeEnd()->Stops a timer that was previously started by console.time()
+            console.timeEnd();
+            //console.warn()->Outputs a warning message to the console
+            console.warn("This is a warning");
+
+        </script>
+    </body>
+</html>
