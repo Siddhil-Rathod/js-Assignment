@@ -1,0 +1,17 @@
+.blue{
+    color:blue;
+}
+
+.bgyellow{
+    background-color: yellowgreen;
+}
+
+.highlight{
+    color:palegoldenrod;
+    font-size: 32px;
+}
+
+.dark{
+    color : white;
+    background-color: black;
+}
